@@ -1,16 +1,18 @@
-// Charger les questions depuis le fichier JSON
-fetch('question.json')
-    .then(response => response.json())
-    .then(data => {
-        // Vous pouvez maintenant accéder aux questions
-        const cinemaQuestions = data.cinema;
-        const nobelQuestions = data.nobel;
+// Charger les questions depuis les fichiers JSON
+Promise.all([
+    fetch('cinema_questions.json').then(response => response.json()),
+    fetch('nobel_questions.json').then(response => response.json())
+])
+.then(([cinemaData, nobelData]) => {
+    // Vous pouvez maintenant accéder aux questions
+    const cinemaQuestions = cinemaData.cinema;
+    const nobelQuestions = nobelData.nobel;
 
-        // Commencez le quiz après avoir chargé les questions
-        document.getElementById('startCinemaQuizBtn').addEventListener('click', () => startQuiz(cinemaQuestions));
-        document.getElementById('startNobelQuizBtn').addEventListener('click', () => startQuiz(nobelQuestions));
-    })
-    .catch(error => console.error('Erreur lors du chargement des questions:', error));
+    // Commencez le quiz après avoir chargé les questions
+    document.getElementById('startCinemaQuizBtn').addEventListener('click', () => startQuiz(cinemaQuestions));
+    document.getElementById('startNobelQuizBtn').addEventListener('click', () => startQuiz(nobelQuestions));
+})
+.catch(error => console.error('Erreur lors du chargement des questions:', error));
 
 function startQuiz(questions) {
     currentQuestions = shuffleArray([...questions]).slice(0, 10);
