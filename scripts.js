@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
     fetch('all_categories_questions.json')
         .then(response => response.json())
         .then(data => {
-            // Combine all questions from all categories into a single array
             for (const category in data) {
                 if (data.hasOwnProperty(category)) {
                     questions = questions.concat(data[category]);
@@ -83,6 +82,12 @@ document.addEventListener('DOMContentLoaded', function () {
             button.onclick = () => selectAnswer(option);
             optionsElement.appendChild(button);
         });
+
+        questionElement.parentElement.style.opacity = '0';
+        questionElement.parentElement.style.transform = 'translateY(20px)';
+        setTimeout(() => {
+            questionElement.parentElement.style.animation = 'fadeInUp 0.5s forwards';
+        }, 0);
     }
 
     function selectAnswer(selectedOption) {
@@ -107,6 +112,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
         explanationElement.textContent = question.explanation;
         explanationElement.style.display = 'block';
+
+        explanationElement.style.opacity = '0';
+        explanationElement.style.transform = 'translateY(20px)';
+        setTimeout(() => {
+            explanationElement.style.animation = 'fadeInUp 0.5s forwards';
+        }, 0);
+
         nextBtn.style.display = 'block';
     }
 
