@@ -333,6 +333,331 @@
             ],
             "answer": "The Legend of Zelda",
             "explanation": "Dans The Legend of Zelda, Link doit souvent sauver Hyrule et retrouver la Triforce."
+        },
+        {
+    "mythologie_grecque": [
+        {
+            "question": "Quel est le dieu du ciel et roi des dieux dans la mythologie grecque ?",
+            "options": ["Zeus", "Hadès", "Poséidon", "Apollon"],
+            "answer": "Zeus",
+            "explanation": "Zeus a renversé son père Cronos pour devenir roi des dieux."
+        },
+        {
+            "question": "Qui est la déesse de la sagesse et de la stratégie guerrière ?",
+            "options": ["Athéna", "Héra", "Aphrodite", "Artémis"],
+            "answer": "Athéna",
+            "explanation": "Elle est née de la tête de Zeus, déjà adulte et en armure."
+        },
+        {
+            "question": "Quel héros grec a accompli 12 travaux ?",
+            "options": ["Héraclès (Hercule en latin)", "Achille", "Persée", "Thésée"],
+            "answer": "Héraclès (Hercule en latin)",
+            "explanation": "Ces travaux lui ont été imposés pour expier un crime sous l'influence d'Héra."
+        },
+        {
+            "question": "Quelle créature mythologique est mi-homme, mi-cheval ?",
+            "options": ["Le centaure", "Le Minotaure", "Le Satyre", "Le Griffon"],
+            "answer": "Le centaure",
+            "explanation": "Les centaures sont souvent associés à l'indiscipline, sauf Chiron, qui était sage."
+        },
+        {
+            "question": "Quel labyrinthe célèbre abritait le Minotaure ?",
+            "options": ["Le Labyrinthe de Crète", "Le Labyrinthe de Thésée", "Le Labyrinthe de Dédale", "Le Labyrinthe de Minos"],
+            "answer": "Le Labyrinthe de Crète",
+            "explanation": "Il a été construit par Dédale à la demande du roi Minos."
         }
+    ],
+    "mythologie_nordique": [
+        {
+            "question": "Quel est le nom du marteau magique de Thor ?",
+            "options": ["Mjöllnir", "Gungnir", "Gram", "Skofnung"],
+            "answer": "Mjöllnir",
+            "explanation": "Il revient toujours dans la main de Thor lorsqu'il est lancé."
+        },
+        {
+            "question": "Qui est le dieu nordique de la tromperie et des métamorphoses ?",
+            "options": ["Loki", "Odin", "Baldur", "Frey"],
+            "answer": "Loki",
+            "explanation": "Loki est à l'origine du Ragnarok, la fin du monde dans la mythologie nordique."
+        },
+        {
+            "question": "Comment se nomme l’arbre qui relie les neuf mondes dans la mythologie nordique ?",
+            "options": ["Yggdrasil", "Bifröst", "Mímisbrunnr", "Hvergelmir"],
+            "answer": "Yggdrasil",
+            "explanation": "Cet arbre gigantesque est le pilier central de l'univers."
+        },
+        {
+            "question": "Quel animal monstrueux est le serpent du monde ?",
+            "options": ["Jörmungand", "Fenrir", "Níðhöggr", "Sleipnir"],
+            "answer": "Jörmungand",
+            "explanation": "Il est si grand qu’il entoure Midgard et se mord la queue."
+        },
+        {
+            "question": "Comment se nomme la salle où les guerriers morts au combat festoient éternellement ?",
+            "options": ["Le Valhalla", "Le Folkvangr", "Le Helheim", "Le Niflheim"],
+            "answer": "Le Valhalla",
+            "explanation": "Les Valkyries choisissent les guerriers dignes d'y entrer."
+        }
+    ],
+    "mythologie_egyptienne": [
+        {
+            "question": "Quel dieu égyptien a une tête de chacal et veille sur les morts ?",
+            "options": ["Anubis", "Osiris", "Râ", "Seth"],
+            "answer": "Anubis",
+            "explanation": "Il préside la cérémonie de la pesée des cœurs."
+        },
+        {
+            "question": "Qui est la déesse de la magie et de la maternité dans la mythologie égyptienne ?",
+            "options": ["Isis", "Hathor", "Nephtys", "Bastet"],
+            "answer": "Isis",
+            "explanation": "Elle a ressuscité son mari Osiris grâce à ses pouvoirs."
+        },
+        {
+            "question": "Quel dieu égyptien est représenté avec une tête de faucon ?",
+            "options": ["Horus", "Thot", "Sobek", "Anubis"],
+            "answer": "Horus",
+            "explanation": "Horus est souvent associé à la royauté et à la vengeance."
+        },
+        {
+            "question": "Quel dieu égyptien est le dieu du chaos et du désert ?",
+            "options": ["Seth", "Osiris", "Râ", "Horus"],
+            "answer": "Seth",
+            "explanation": "Il a assassiné son frère Osiris, provoquant une guerre divine."
+        },
+        {
+            "question": "Comment s'appelle le livre contenant les rituels funéraires des Égyptiens ?",
+            "options": ["Le Livre des Morts", "Le Livre des Portes", "Le Livre des Cavernes", "Le Livre de l'Amdouat"],
+            "answer": "Le Livre des Morts",
+            "explanation": "Ce texte servait de guide pour naviguer dans l'au-delà."
+        }
+    ],
+    "mythologie_romaine": [
+        {
+            "question": "Quel dieu romain est l'équivalent de Zeus ?",
+            "options": ["Jupiter", "Mars", "Neptune", "Mercure"],
+            "answer": "Jupiter",
+            "explanation": "Jupiter était aussi le dieu des serments et des éclairs."
+        },
+        {
+            "question": "Qui est la déesse romaine de l’amour et de la beauté ?",
+            "options": ["Vénus", "Junon", "Diane", "Minerve"],
+            "answer": "Vénus",
+            "explanation": "Elle est l'ancêtre mythologique du peuple romain par son fils Énée."
+        },
+        {
+            "question": "Quel dieu romain est associé à la guerre et à la destruction ?",
+            "options": ["Mars", "Jupiter", "Pluton", "Neptune"],
+            "answer": "Mars",
+            "explanation": "Contrairement à son homologue grec Arès, Mars était aussi un dieu agricole."
+        },
+        {
+            "question": "Comment s'appelle le dieu romain des portes et des transitions ?",
+            "options": ["Janus", "Saturne", "Vulcain", "Mercure"],
+            "answer": "Janus",
+            "explanation": "Il est représenté avec deux visages, l'un tourné vers le passé, l'autre vers l'avenir."
+        },
+        {
+            "question": "Quel dieu romain est souvent associé à la mer ?",
+            "options": ["Neptune", "Jupiter", "Pluton", "Bacchus"],
+            "answer": "Neptune",
+            "explanation": "Il est souvent représenté avec un trident, comme son équivalent grec, Poséidon."
+        }
+    ]{
+    "mythologie_diverse": [
+        {
+            "question": "Dans quelle mythologie trouve-t-on le dieu Ganesha, à tête d’éléphant ?",
+            "options": ["La mythologie hindoue", "La mythologie grecque", "La mythologie égyptienne", "La mythologie nordique"],
+            "answer": "La mythologie hindoue",
+            "explanation": "Ganesha est le dieu de la sagesse et des nouveaux départs."
+        },
+        {
+            "question": "Quel est le nom du dieu du tonnerre dans la mythologie yoruba ?",
+            "options": ["Shango", "Ogun", "Obatala", "Eshu"],
+            "answer": "Shango",
+            "explanation": "Il est aussi associé à la justice et à la danse."
+        },
+        {
+            "question": "Comment se nomme la déesse japonaise du soleil ?",
+            "options": ["Amaterasu", "Izanami", "Tsukuyomi", "Susanoo"],
+            "answer": "Amaterasu",
+            "explanation": "Elle est vénérée comme l'ancêtre des empereurs du Japon."
+        },
+        {
+            "question": "Quel héros de la mythologie mésoaméricaine est associé au serpent à plumes ?",
+            "options": ["Quetzalcoatl", "Huitzilopochtli", "Tezcatlipoca", "Tlaloc"],
+            "answer": "Quetzalcoatl",
+            "explanation": "Il est à la fois dieu et héros civilisateur."
+        },
+        {
+            "question": "Quel dieu polynésien est connu pour avoir volé le feu aux dieux ?",
+            "options": ["Maui", "Tangaroa", "Rongo", "Tane"],
+            "answer": "Maui",
+            "explanation": "Maui est aussi célèbre pour avoir ralenti le soleil."
+        },
+        {
+            "question": "Dans la mythologie chinoise, qui est le roi des singes ?",
+            "options": ["Sun Wukong", "Yu Huang", "Nuwa", "Hou Yi"],
+            "answer": "Sun Wukong",
+            "explanation": "Il est l’un des personnages principaux du roman Le Voyage en Occident."
+        },
+        {
+            "question": "Quel est le nom de la montagne sacrée dans la mythologie hindoue ?",
+            "options": ["Le mont Meru", "Le mont Kailash", "Le mont Everest", "Le mont Olympe"],
+            "answer": "Le mont Meru",
+            "explanation": "Il est considéré comme l'axe du monde."
+        },
+        {
+            "question": "Quel héros de la mythologie grecque a tué Méduse ?",
+            "options": ["Persée", "Héraclès", "Achille", "Thésée"],
+            "answer": "Persée",
+            "explanation": "Persée a utilisé un bouclier poli comme un miroir pour éviter d’être pétrifié par son regard."
+        },
+        {
+            "question": "Dans la mythologie aztèque, qui est le dieu de la guerre et du soleil ?",
+            "options": ["Huitzilopochtli", "Quetzalcoatl", "Tlaloc", "Tezcatlipoca"],
+            "answer": "Huitzilopochtli",
+            "explanation": "Les Aztèques croyaient qu’il avait besoin de sacrifices humains pour maintenir le soleil en mouvement."
+        },
+        {
+            "question": "Quel dieu nordique est le père de Thor ?",
+            "options": ["Odin", "Loki", "Freyr", "Tyr"],
+            "answer": "Odin",
+            "explanation": "Odin a sacrifié un œil pour acquérir la sagesse et la connaissance des runes."
+        },
+        {
+            "question": "Dans la mythologie celte, quel héros irlandais a un chien de guerre nommé Failinis ?",
+            "options": ["Cúchulainn", "Fionn mac Cumhaill", "Lugh", "Nuada"],
+            "answer": "Cúchulainn",
+            "explanation": "Il a gagné son surnom après avoir tué le chien de Culann et pris sa place comme gardien."
+        },
+        {
+            "question": "Comment s'appelle l'épée légendaire du roi Arthur ?",
+            "options": ["Excalibur", "Durandal", "Joyeuse", "Clarent"],
+            "answer": "Excalibur",
+            "explanation": "Selon certaines légendes, elle lui a été donnée par la Dame du Lac."
+        },
+        {
+            "question": "Dans la mythologie égyptienne, qui est le dieu créateur associé au soleil ?",
+            "options": ["Rê (ou Râ)", "Osiris", "Anubis", "Seth"],
+            "answer": "Rê (ou Râ)",
+            "explanation": "Rê voyageait chaque nuit dans le monde souterrain pour combattre le serpent Apophis."
+        },
+        {
+            "question": "Quel dieu nordique est associé à la poésie et à la sagesse ?",
+            "options": ["Bragi", "Odin", "Loki", "Baldur"],
+            "answer": "Bragi",
+            "explanation": "Il est souvent décrit comme ayant une barbe ornée de runes."
+        },
+        {
+            "question": "Dans la mythologie japonaise, quel est le dieu des tempêtes et des mers ?",
+            "options": ["Susanoo", "Amaterasu", "Inari", "Tsukuyomi"],
+            "answer": "Susanoo",
+            "explanation": "Il a tué le serpent Yamata-no-Orochi et découvert une épée sacrée dans sa queue."
+        },
+        {
+            "question": "Qui est le dieu suprême dans la mythologie yoruba ?",
+            "options": ["Olodumare", "Shango", "Ogun", "Orunmila"],
+            "answer": "Olodumare",
+            "explanation": "Il est considéré comme l’origine de la création, bien qu’il n’intervienne pas directement dans les affaires humaines."
+        },
+        {
+            "question": "Quel dieu hindou est connu comme le destructeur et le régénérateur ?",
+            "options": ["Shiva", "Vishnu", "Brahma", "Indra"],
+            "answer": "Shiva",
+            "explanation": "Il est souvent représenté en méditation, entouré d’un serpent et avec un troisième œil."
+        },
+        {
+            "question": "Dans la mythologie nordique, comment s’appelle la fin du monde ?",
+            "options": ["Ragnarok", "Valhalla", "Yggdrasil", "Midgard"],
+            "answer": "Ragnarok",
+            "explanation": "C’est un cycle de destruction et de renouveau où les dieux et les hommes périront."
+        },
+        {
+            "question": "Dans la mythologie maya, comment les dieux ont-ils créé les humains ?",
+            "options": ["Avec du maïs", "Avec de l'argile", "Avec du bois", "Avec du sang"],
+            "answer": "Avec du maïs",
+            "explanation": "Le maïs est considéré comme sacré, car il est la base de la vie maya."
+        },
+        {
+            "question": "Dans la mythologie grecque, qui a créé les hommes à partir d’argile ?",
+            "options": ["Prométhée", "Zeus", "Héphaïstos", "Hermès"],
+            "answer": "Prométhée",
+            "explanation": "Il a également volé le feu des dieux pour le donner aux humains, provoquant la colère de Zeus."
+        },
+        {
+            "question": "Quel mythe polynésien explique l’origine des îles Hawaï ?",
+            "options": ["Maui les a pêchées du fond de l’océan avec son hameçon magique", "Tangaroa les a créées", "Les dieux les ont sculptées", "Elles ont émergé après un combat entre dieux"],
+            "answer": "Maui les a pêchées du fond de l’océan avec son hameçon magique",
+            "explanation": "Maui est un héros culture qui revient dans de nombreuses légendes à travers l’Océanie."
+        },
+        {
+            "question": "Dans la mythologie sumérienne, qui est la déesse mère associée à la création de l’humanité ?",
+            "options": ["Ninhursag", "Inanna", "Ereshkigal", "Nammu"],
+            "answer": "Ninhursag",
+            "explanation": "Elle a créé les humains pour aider les dieux dans leurs travaux."
+        },
+        {
+            "question": "Quelle créature grecque a le corps d’un lion, une tête humaine et des ailes ?",
+            "options": ["La sphinx", "Le griffon", "Le centaure", "Le minotaure"],
+            "answer": "La sphinx",
+            "explanation": "Le sphinx grec posait des énigmes mortelles aux voyageurs, comme celle qu’Oedipe a résolue."
+        },
+        {
+            "question": "Quel animal légendaire de la mythologie chinoise symbolise la puissance et la chance ?",
+            "options": ["Le dragon", "Le phénix", "Le qilin", "Le tigre blanc"],
+            "answer": "Le dragon",
+            "explanation": "Contrairement aux dragons occidentaux, il est bienveillant et souvent associé à l’empereur."
+        },
+        {
+            "question": "Comment se nomme le monstre marin dans la mythologie nordique ?",
+            "options": ["Kraken", "Jörmungand", "Leviathan", "Níðhöggr"],
+            "answer": "Kraken",
+            "explanation": "Les récits de Kraken pourraient être inspirés par des calmars géants."
+        },
+        {
+            "question": "Quel animal mythologique est un symbole de résurrection et de renouveau ?",
+            "options": ["Le phénix", "Le dragon", "Le griffon", "Le licorne"],
+            "answer": "Le phénix",
+            "explanation": "Le phénix renaît de ses cendres après s’être consumé dans les flammes."
+        },
+        {
+            "question": "Dans la mythologie japonaise, quelle créature féminine apparaît avec de longs cheveux noirs et un kimono blanc pour hanter les vivants ?",
+            "options": ["Yurei", "Oni", "Tengu", "Kappa"],
+            "answer": "Yurei",
+            "explanation": "Ces fantômes sont souvent liés à des émotions fortes comme la vengeance ou la tristesse."
+        },
+        {
+            "question": "Quelle mythologie place l’île d’Avalon comme lieu mystique ?",
+            "options": ["La mythologie arthurienne", "La mythologie grecque", "La mythologie nordique", "La mythologie égyptienne"],
+            "answer": "La mythologie arthurienne",
+            "explanation": "C’est là que le roi Arthur aurait été emmené après sa dernière bataille."
+        },
+        {
+            "question": "Quel animal totem est sacré pour de nombreuses tribus amérindiennes ?",
+            "options": ["L’aigle", "L'ours", "Le loup", "Le bison"],
+            "answer": "L’aigle",
+            "explanation": "Il est souvent vu comme un messager entre les hommes et les esprits."
+        },
+        {
+            "question": "Quel héros grec a été élevé par une louve ?",
+            "options": ["Aucun, mais Romulus et Rémus de la mythologie romaine, oui", "Héraclès", "Achille", "Persée"],
+            "answer": "Aucun, mais Romulus et Rémus de la mythologie romaine, oui",
+            "explanation": "Ils sont les fondateurs légendaires de Rome."
+        },
+        {
+            "question": "Quel objet mythologique nordique est une corne à boire qui ne se vide jamais ?",
+            "options": ["La corne d'abondance", "Gleipnir", "Gungnir", "Mjöllnir"],
+            "answer": "La corne d'abondance",
+            "explanation": "Elle est parfois associée à Heimdall ou aux banquets des dieux."
+        },
+        {
+            "question": "Quel dieu grec est le messager des dieux et porte des sandales ailées ?",
+            "options": ["Hermès", "Apollon", "Héphaïstos", "Dionysos"],
+            "answer": "Hermès",
+            "explanation": "En plus de son rôle de messager, il est aussi le dieu des voleurs et des voyageurs."
+        }
+    ]
+}
+}
     ]
 }
