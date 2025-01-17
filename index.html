@@ -8,25 +8,13 @@
 <body>
     <div class="container">
         <h1>Quiz Culture Pop</h1>
-        
-        <div class="category-select">
-            <select id="categorySelect">
-                <option value="">Sélectionnez une catégorie</option>
-                <option value="cinema">Cinéma et Séries</option>
-                <option value="musique">Musique</option>
-                <option value="jeuxVideo">Jeux Vidéo</option>
-                <option value="television">Télévision</option>
-                <option value="comics">Comics et Super-héros</option>
-                <option value="litterature">Littérature</option>
-                <option value="internet">Internet et Mèmes</option>
-            </select>
+
+        <div id="startContainer">
+            <button id="startBtn">Commencer le quiz</button>
         </div>
 
-        <div id="progress"></div>
-
-        <div id="quizContainer">
+        <div id="quizContainer" style="display:none;">
             <div class="question-container">
-                <div class="category" id="currentCategory"></div>
                 <div id="question"></div>
                 <div class="options" id="options"></div>
                 <div class="explanation" id="explanation"></div>
@@ -34,12 +22,12 @@
             <button class="next-btn" id="nextBtn" style="display: none;">Question suivante</button>
         </div>
 
-        <div class="score-container" id="scoreContainer">
+        <div class="score-container" id="scoreContainer" style="display:none;">
             <div class="score" id="score"></div>
             <button class="restart-btn" id="restartBtn">Recommencer le quiz</button>
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
