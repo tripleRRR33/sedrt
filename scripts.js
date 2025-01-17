@@ -1,6 +1,6 @@
 // Charger les questions depuis les fichiers JSON
 Promise.all([
-    fetch('cinema_questions.json').then(response => response.json()),
+    fetch('all_categories_questions.json').then(response => response.json()),
     fetch('nobel_questions.json').then(response => response.json())
 ])
 .then(([cinemaData, nobelData]) => {
