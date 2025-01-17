@@ -1,4 +1,16 @@
-function startQuiz() {
+// Charger les questions depuis le fichier JSON
+fetch('all_categories_questions.json')
+    .then(response => response.json())
+    .then(data => {
+        // Vous pouvez maintenant accéder aux questions
+        const questions = data.cinema; // ou data.musique, data.jeux_video selon la catégorie souhaitée
+
+        // Commencez le quiz après avoir chargé les questions
+        document.getElementById('startBtn').addEventListener('click', () => startQuiz(questions));
+    })
+    .catch(error => console.error('Erreur lors du chargement des questions:', error));
+
+function startQuiz(questions) {
     currentQuestions = shuffleArray([...questions]).slice(0, 10);
     currentQuestionIndex = 0;
     score = 0;
@@ -9,7 +21,6 @@ function startQuiz() {
     updateProgress();
 }
 
-// Assurez-vous également que les fonctions suivantes sont définies quelque part dans votre script :
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
