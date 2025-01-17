@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-    let questions = [];
-
     fetch('all_categories_questions.json')
         .then(response => response.json())
         .then(data => {
@@ -38,32 +36,16 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('startBtn').onclick = () => {
             startQuiz();
         };
-
-        nextBtn.onclick = () => {
-            currentQuestionIndex++;
-            if (currentQuestionIndex < currentQuestions.length) {
-                showQuestion();
-                updateProgress();
-            } else {
-                showScore();
-            }
-        };
-
-        document.getElementById('restartBtn').onclick = () => {
-            quizContainer.style.display = 'none';
-            scoreContainer.style.display = 'none';
-            document.getElementById('startContainer').style.display = 'block';
-        };
     }
 
     function startQuiz() {
         currentQuestions = shuffleArray([...questions]).slice(0, 10);
         currentQuestionIndex = 0;
         score = 0;
-        showQuestion();
         quizContainer.style.display = 'block';
         scoreContainer.style.display = 'none';
         document.getElementById('startContainer').style.display = 'none';
+        showQuestion();
         updateProgress();
     }
 
@@ -73,53 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
         optionsElement.innerHTML = '';
         explanationElement.style.display = 'none';
         nextBtn.style.display = 'none';
-        answeredQuestion = false;
-
-        question.options.forEach(option => {
-            const button = document.createElement('button');
-            button.className = 'option-btn';
-            button.textContent = option;
-            button.onclick = () => selectAnswer(option);
-            optionsElement.appendChild(button);
-        });
-
-        questionElement.parentElement.style.opacity = '0';
-        questionElement.parentElement.style.transform = 'translateY(20px)';
-        setTimeout(() => {
-            questionElement.parentElement.style.animation = 'fadeInUp 0.5s forwards';
-        }, 0);
-    }
-
-    function selectAnswer(selectedOption) {
-        if (answeredQuestion) return;
-        answeredQuestion = true;
-
-        const question = currentQuestions[currentQuestionIndex];
-        const buttons = optionsElement.getElementsByClassName('option-btn');
-
-        Array.from(buttons).forEach(button => {
-            button.classList.add('disabled');
-            if (button.textContent === question.answer) {
-                button.classList.add('correct');
-            } else if (button.textContent === selectedOption) {
-                button.classList.add('incorrect');
-            }
-        });
-
-        if (selectedOption === question.answer) {
-            score++;
-        }
-
-        explanationElement.textContent = question.explanation;
-        explanationElement.style.display = 'block';
-
-        explanationElement.style.opacity = '0';
-        explanationElement.style.transform = 'translateY(20px)';
-        setTimeout(() => {
-            explanationElement.style.animation = 'fadeInUp 0.5s forwards';
-        }, 0);
-
-        nextBtn.style.display = 'block';
+        // Ajoutez le code pour afficher les options ici
     }
 
     function updateProgress() {
@@ -129,8 +65,22 @@ document.addEventListener('DOMContentLoaded', function () {
     function showScore() {
         quizContainer.style.display = 'none';
         scoreContainer.style.display = 'block';
-        const scoreElement = document.getElementById('score');
-        const percentage = (score / currentQuestions.length) * 100;
-        scoreElement.textContent = `Score: ${score}/${currentQuestions.length} (${percentage}%)`;
+        // Ajoutez le code pour afficher le score ici
     }
+
+    nextBtn.onclick = () => {
+        currentQuestionIndex++;
+        if (currentQuestionIndex < currentQuestions.length) {
+            showQuestion();
+            updateProgress();
+        } else {
+            showScore();
+        }
+    };
+
+    document.getElementById('restartBtn').onclick = () => {
+        quizContainer.style.display = 'none';
+        scoreContainer.style.display = 'none';
+        document.getElementById('startContainer').style.display = 'block';
+    };
 });
