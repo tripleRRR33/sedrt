@@ -1,28 +1,30 @@
 document.addEventListener('DOMContentLoaded', function () {
-    let questions = {};
-    
+    let questions = [];
+
     fetch('all_categories_questions.json')
         .then(response => response.json())
         .then(data => {
-            questions = data;
+            // Combine all questions from all categories into a single array
+            for (const category in data) {
+                if (data.hasOwnProperty(category)) {
+                    questions = questions.concat(data[category]);
+                }
+            }
             initializeQuiz();
         })
         .catch(error => console.error('Error loading questions:', error));
 
-    let currentCategory = '';
     let currentQuestions = [];
     let currentQuestionIndex = 0;
     let score = 0;
     let answeredQuestion = false;
 
-    const categorySelect = document.getElementById('categorySelect');
     const quizContainer = document.getElementById('quizContainer');
     const scoreContainer = document.getElementById('scoreContainer');
     const questionElement = document.getElementById('question');
     const optionsElement = document.getElementById('options');
     const explanationElement = document.getElementById('explanation');
     const nextBtn = document.getElementById('nextBtn');
-    const currentCategoryElement = document.getElementById('currentCategory');
     const progressElement = document.getElementById('progress');
 
     function shuffleArray(array) {
@@ -34,10 +36,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function initializeQuiz() {
-        categorySelect.onchange = (e) => {
-            if (e.target.value) {
-                startQuiz(e.target.value);
-            }
+        document.getElementById('startBtn').onclick = () => {
+            startQuiz();
         };
 
         nextBtn.onclick = () => {
@@ -51,26 +51,25 @@ document.addEventListener('DOMContentLoaded', function () {
         };
 
         document.getElementById('restartBtn').onclick = () => {
-            categorySelect.value = '';
             quizContainer.style.display = 'none';
             scoreContainer.style.display = 'none';
+            document.getElementById('startContainer').style.display = 'block';
         };
     }
 
-    function startQuiz(category) {
-        currentCategory = category;
-        currentQuestions = shuffleArray([...questions[category]]);
+    function startQuiz() {
+        currentQuestions = shuffleArray([...questions]).slice(0, 10);
         currentQuestionIndex = 0;
         score = 0;
         showQuestion();
         quizContainer.style.display = 'block';
         scoreContainer.style.display = 'none';
+        document.getElementById('startContainer').style.display = 'none';
         updateProgress();
     }
 
     function showQuestion() {
         const question = currentQuestions[currentQuestionIndex];
-        currentCategoryElement.textContent = categorySelect.options[categorySelect.selectedIndex].text;
         questionElement.textContent = question.question;
         optionsElement.innerHTML = '';
         explanationElement.style.display = 'none';
