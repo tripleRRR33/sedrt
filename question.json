@@ -1,92 +1,167 @@
-{
+{{
   "nobel": [
     {
       "question": "En quelle année le premier prix Nobel a-t-il été décerné ?",
-      "options": ["1901", "1905", "1910", "1920"],
+      "options": [
+        "1901",
+        "1905",
+        "1910",
+        "1920"
+      ],
       "answer": "1901",
       "explanation": "Les prix Nobel ont été créés à la suite du testament d'Alfred Nobel, l'inventeur de la dynamite."
     },
     {
       "question": "Quel est le pays d'origine d'Alfred Nobel ?",
-      "options": ["La Suède", "La Norvège", "La Finlande", "Le Danemark"],
+      "options": [
+        "La Suède",
+        "La Norvège",
+        "La Finlande",
+        "Le Danemark"
+      ],
       "answer": "La Suède",
       "explanation": "Alfred Nobel a accumulé une immense richesse grâce à ses inventions, mais il se sentait coupable des applications destructrices de la dynamite."
     },
     {
       "question": "Quel est le seul domaine dans lequel Alfred Nobel n’a pas instauré de prix ?",
-      "options": ["Les mathématiques", "La littérature", "La physique", "La chimie"],
+      "options": [
+        "Les mathématiques",
+        "La littérature",
+        "La physique",
+        "La chimie"
+      ],
       "answer": "Les mathématiques",
       "explanation": "Une rumeur populaire, bien que non vérifiée, dit qu'il aurait exclu les mathématiques par jalousie envers un mathématicien."
     },
     {
       "question": "Quel prix a été ajouté en 1968 ?",
-      "options": ["Le prix de la Banque de Suède en sciences économiques", "Le prix de la paix", "Le prix de littérature", "Le prix de chimie"],
+      "options": [
+        "Le prix de la Banque de Suède en sciences économiques",
+        "Le prix de la paix",
+        "Le prix de littérature",
+        "Le prix de chimie"
+      ],
       "answer": "Le prix de la Banque de Suède en sciences économiques",
       "explanation": "Ce prix est souvent appelé à tort 'Prix Nobel d'économie'."
     },
     {
       "question": "Qui est la première femme à avoir reçu un prix Nobel ?",
-      "options": ["Marie Curie", "Rosalind Franklin", "Ada Lovelace", "Dorothy Hodgkin"],
+      "options": [
+        "Marie Curie",
+        "Rosalind Franklin",
+        "Ada Lovelace",
+        "Dorothy Hodgkin"
+      ],
       "answer": "Marie Curie",
       "explanation": "Elle a reçu le prix de physique en 1903 et est la seule femme à avoir reçu deux prix Nobel dans deux domaines différents (physique et chimie)."
     },
     {
       "question": "Quel écrivain français a refusé le prix Nobel de littérature en 1964 ?",
-      "options": ["Jean-Paul Sartre", "Albert Camus", "Marcel Proust", "André Gide"],
+      "options": [
+        "Jean-Paul Sartre",
+        "Albert Camus",
+        "Marcel Proust",
+        "André Gide"
+      ],
       "answer": "Jean-Paul Sartre",
       "explanation": "Il a refusé tous les honneurs officiels, y compris ce prestigieux prix."
     },
     {
       "question": "Quelle organisation a reçu le prix Nobel de la paix en 1965 ?",
-      "options": ["L'UNICEF", "La Croix-Rouge", "Amnesty International", "Médecins Sans Frontières"],
+      "options": [
+        "L'UNICEF",
+        "La Croix-Rouge",
+        "Amnesty International",
+        "Médecins Sans Frontières"
+      ],
       "answer": "L'UNICEF",
       "explanation": "L'UNICEF a été récompensée pour son travail en faveur des enfants dans le monde entier."
     },
     {
       "question": "Quel président américain a reçu le prix Nobel de la paix en 2009 ?",
-      "options": ["Barack Obama", "George W. Bush", "Bill Clinton", "Jimmy Carter"],
+      "options": [
+        "Barack Obama",
+        "George W. Bush",
+        "Bill Clinton",
+        "Jimmy Carter"
+      ],
       "answer": "Barack Obama",
       "explanation": "Ce choix a été controversé, car il a été honoré en début de mandat."
     },
     {
       "question": "Combien de fois un prix Nobel a-t-il été partagé par plus de deux personnes ?",
-      "options": ["Jamais", "Une fois", "Deux fois", "Trois fois"],
+      "options": [
+        "Jamais",
+        "Une fois",
+        "Deux fois",
+        "Trois fois"
+      ],
       "answer": "Jamais",
       "explanation": "Jamais plus de trois personnes ne peuvent partager un prix Nobel. Cette règle est fixée par le comité Nobel."
     },
     {
       "question": "Quel est le plus jeune lauréat du prix Nobel ?",
-      "options": ["Malala Yousafzai", "Greta Thunberg", "Mother Teresa", "Rigoberta Menchú"],
+      "options": [
+        "Malala Yousafzai",
+        "Greta Thunberg",
+        "Mother Teresa",
+        "Rigoberta Menchú"
+      ],
       "answer": "Malala Yousafzai",
       "explanation": "Elle a reçu le prix Nobel de la paix en 2014 à seulement 17 ans."
     },
     {
       "question": "Quel est le plus âgé des lauréats du prix Nobel ?",
-      "options": ["John B. Goodenough", "Leonid Hurwicz", "Lloyd Shapley", "Leon M. Lederman"],
+      "options": [
+        "John B. Goodenough",
+        "Leonid Hurwicz",
+        "Lloyd Shapley",
+        "Leon M. Lederman"
+      ],
       "answer": "John B. Goodenough",
       "explanation": "Il a reçu le prix de chimie en 2019 à 97 ans."
     },
     {
       "question": "Combien de femmes ont reçu un prix Nobel en 2023 ?",
-      "options": ["3", "4", "5", "6"],
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
       "answer": "3",
       "explanation": "Ce chiffre est en augmentation, mais les femmes restent sous-représentées parmi les lauréats."
     },
     {
       "question": "Quel domaine récompense le plus de femmes parmi les prix Nobel ?",
-      "options": ["La paix", "La littérature", "La chimie", "La médecine"],
+      "options": [
+        "La paix",
+        "La littérature",
+        "La chimie",
+        "La médecine"
+      ],
       "answer": "La paix",
       "explanation": "Ce prix met souvent en avant les efforts pour l'égalité et les droits des femmes."
     },
     {
       "question": "Qui a reçu le prix Nobel de littérature en 2021 ?",
-      "options": ["Abdulrazak Gurnah", "Kazuo Ishiguro", "Alice Munro", "Olga Tokarczuk"],
+      "options": [
+        "Abdulrazak Gurnah",
+        "Kazuo Ishiguro",
+        "Alice Munro",
+        "Olga Tokarczuk"
+      ],
       "answer": "Abdulrazak Gurnah",
       "explanation": "Il est né à Zanzibar et écrit principalement sur les thèmes de l'exil et de la migration."
     },
     {
       "question": "Dans quel domaine le prix Nobel est-il le plus souvent décerné à des équipes ?",
-      "options": ["La physique", "La chimie", "La médecine", "La paix"],
+      "options": [
+        "La physique",
+        "La chimie",
+        "La médecine",
+        "La paix"
+      ],
       "answer": "La physique",
       "explanation": "La physique exige souvent des collaborations importantes."
     }
