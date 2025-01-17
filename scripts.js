@@ -63,3 +63,6 @@ function selectAnswer(selectedOption) {
 function updateProgress() {
     document.getElementById('progress').textContent = `Question ${currentQuestionIndex + 1} sur ${currentQuestions.length}`;
 }
+
+// Ajoutez cet écouteur d'événement pour démarrer le quiz lorsque le bouton est cliqué
+document.getElementById('startBtn').addEventListener('click', startQuiz);
