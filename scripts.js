@@ -1,12 +1,14 @@
 // Charger les questions depuis le fichier JSON
-fetch('all_categories_questions.json')
+fetch('question.json')
     .then(response => response.json())
     .then(data => {
         // Vous pouvez maintenant accéder aux questions
-        const questions = data.cinema; // ou data.musique, data.jeux_video selon la catégorie souhaitée
+        const cinemaQuestions = data.cinema;
+        const nobelQuestions = data.nobel;
 
         // Commencez le quiz après avoir chargé les questions
-        document.getElementById('startBtn').addEventListener('click', () => startQuiz(questions));
+        document.getElementById('startCinemaQuizBtn').addEventListener('click', () => startQuiz(cinemaQuestions));
+        document.getElementById('startNobelQuizBtn').addEventListener('click', () => startQuiz(nobelQuestions));
     })
     .catch(error => console.error('Erreur lors du chargement des questions:', error));
 
@@ -75,5 +77,4 @@ function updateProgress() {
     document.getElementById('progress').textContent = `Question ${currentQuestionIndex + 1} sur ${currentQuestions.length}`;
 }
 
-// Ajoutez cet écouteur d'événement pour démarrer le quiz lorsque le bouton est cliqué
-document.getElementById('startBtn').addEventListener('click', startQuiz);
+// Assurez-vous d'ajouter deux boutons dans votre HTML avec les IDs 'startCinemaQuizBtn' et 'startNobelQuizBtn'
