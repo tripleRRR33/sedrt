@@ -1,0 +1,343 @@
+{
+    "cinema": [
+        {
+            "question": "Quel est le film le plus rentable de tous les temps, ajusté pour l'inflation ?",
+            "options": [
+                "Autant en emporte le vent",
+                "Avatar",
+                "Titanic",
+                "Star Wars"
+            ],
+            "answer": "Autant en emporte le vent",
+            "explanation": "Bien qu’il ait été dépassé par Avatar en termes de recettes brutes, Autant en emporte le vent reste le plus rentable si l’on ajuste les recettes à l’inflation."
+        },
+        {
+            "question": "Quel film a introduit le personnage de Thanos dans l'univers cinématographique Marvel ?",
+            "options": [
+                "Les Gardiens de la Galaxie",
+                "Les Avengers",
+                "Thor: Le Monde des Ténèbres",
+                "Iron Man 2"
+            ],
+            "answer": "Les Avengers",
+            "explanation": "Bien que Thanos apparaisse brièvement dans la scène post-générique, c'est dans Avengers que le personnage commence à prendre une place importante dans l'univers Marvel."
+        },
+        {
+            "question": "Dans quel film de 1994 apparaît le personnage de Forrest Gump ?",
+            "options": [
+                "Forrest Gump",
+                "Philadelphia",
+                "Seul au monde",
+                "Apollo 13"
+            ],
+            "answer": "Forrest Gump",
+            "explanation": "Ce film, réalisé par Robert Zemeckis et avec Tom Hanks dans le rôle principal, est un classique du cinéma qui raconte la vie d'un homme simple ayant vécu plusieurs événements historiques majeurs."
+        },
+        {
+            "question": "Qui a réalisé Pulp Fiction, un film culte des années 90 ?",
+            "options": [
+                "Quentin Tarantino",
+                "Martin Scorsese",
+                "Steven Spielberg",
+                "Francis Ford Coppola"
+            ],
+            "answer": "Quentin Tarantino",
+            "explanation": "Pulp Fiction a révolutionné la narration cinématographique avec ses intrigues non linéaires et ses dialogues mémorables, devenant un film de référence dans la pop culture."
+        },
+        {
+            "question": "Quel est le nom du vaisseau spatial dans la série Star Wars qui a fait 'le Kessel Run' en moins de 12 parsecs ?",
+            "options": [
+                "Le X-Wing",
+                "Le TIE Fighter",
+                "Le Millennium Falcon",
+                "L'Étoile Noire"
+            ],
+            "answer": "Le Millennium Falcon",
+            "explanation": "Ce vaisseau emblématique, piloté par Han Solo et Chewbacca, est devenu un symbole de la saga Star Wars et est légendaire pour sa rapidité."
+        }
+    ],
+    "musique": [
+        {
+            "question": "Quel est le groupe légendaire qui a écrit Bohemian Rhapsody ?",
+            "options": [
+                "The Beatles",
+                "Queen",
+                "Led Zeppelin",
+                "The Rolling Stones"
+            ],
+            "answer": "Queen",
+            "explanation": "Cette chanson, écrite par Freddie Mercury, est l'une des compositions les plus célèbres et les plus originales du groupe, connue pour sa structure complexe et ses influences variées."
+        },
+        {
+            "question": "En quelle année Michael Jackson a-t-il sorti son album Thriller ?",
+            "options": [
+                "1978",
+                "1982",
+                "1984",
+                "1986"
+            ],
+            "answer": "1982",
+            "explanation": "Thriller reste l'album le plus vendu de tous les temps, avec des tubes comme 'Billie Jean' et 'Beat It', et a solidifié Michael Jackson en tant que 'King of Pop'."
+        },
+        {
+            "question": "Quel artiste a popularisé la danse du 'moonwalk' ?",
+            "options": [
+                "James Brown",
+                "Michael Jackson",
+                "Prince",
+                "Elvis Presley"
+            ],
+            "answer": "Michael Jackson",
+            "explanation": "Le moonwalk est devenu emblématique après la performance de Jackson lors du concert de Motown 25: Yesterday, Today, Forever en 1983."
+        },
+        {
+            "question": "Quelle chanson de Nirvana a été un hymne de la scène grunge dans les années 1990 ?",
+            "options": [
+                "Lithium",
+                "Smells Like Teen Spirit",
+                "Come as You Are",
+                "Heart-Shaped Box"
+            ],
+            "answer": "Smells Like Teen Spirit",
+            "explanation": "Cette chanson, souvent vue comme l'hymne de la génération X, a marqué l'essor du mouvement grunge et propulsé Nirvana sur la scène internationale."
+        },
+        {
+            "question": "Qui a chanté 'Like a Virgin', un des plus grands succès des années 1980 ?",
+            "options": [
+                "Cyndi Lauper",
+                "Madonna",
+                "Whitney Houston",
+                "Tina Turner"
+            ],
+            "answer": "Madonna",
+            "explanation": "Madonna a redéfini la pop dans les années 80 avec des chansons comme 'Like a Virgin', et elle est devenue l'une des artistes les plus influentes de l'histoire de la musique."
+        }
+    ],
+    "jeux_video": [
+        {
+            "question": "Quel est le jeu vidéo le plus vendu de tous les temps ?",
+            "options": [
+                "Minecraft",
+                "Tetris",
+                "GTA V",
+                "Super Mario Bros"
+            ],
+            "answer": "Minecraft",
+            "explanation": "Minecraft a surpassé les autres jeux avec plus de 200 millions d'exemplaires vendus, offrant une expérience de monde ouvert et de création sans fin."
+        },
+        {
+            "question": "Quelle franchise de jeu vidéo est devenue célèbre grâce à des personnages comme Mario et Luigi ?",
+            "options": [
+                "Super Mario",
+                "The Legend of Zelda",
+                "Sonic the Hedgehog",
+                "Donkey Kong"
+            ],
+            "answer": "Super Mario",
+            "explanation": "Créée par Nintendo, Super Mario a lancé une série de jeux qui a marqué l’histoire du jeu vidéo, devenant un des personnages les plus iconiques du secteur."
+        },
+        {
+            "question": "Dans quelle série de jeux vidéo le personnage de Link doit-il sauver la princesse Zelda ?",
+            "options": [
+                "The Legend of Zelda",
+                "Final Fantasy",
+                "Dragon Quest",
+                "Fire Emblem"
+            ],
+            "answer": "The Legend of Zelda",
+            "explanation": "Cette série, lancée par Nintendo en 1986, combine aventure, exploration et résolution de puzzles, avec Link combattant des forces maléfiques pour sauver Hyrule."
+        },
+        {
+            "question": "Quel jeu vidéo a popularisé le mode Battle Royale en 2017 ?",
+            "options": [
+                "Fortnite",
+                "PlayerUnknown's Battlegrounds",
+                "Apex Legends",
+                "Call of Duty: Warzone"
+            ],
+            "answer": "Fortnite",
+            "explanation": "Fortnite a révolutionné les jeux en ligne en introduisant un mode Battle Royale gratuit, avec des compétitions mondiales et un immense succès commercial."
+        },
+        {
+            "question": "Quel jeu a marqué la fin d'une génération avec sa sortie en 1998, mettant en vedette un personnage nommé Solid Snake ?",
+            "options": [
+                "Metal Gear Solid",
+                "Final Fantasy VII",
+                "Resident Evil",
+                "Half-Life"
+            ],
+            "answer": "Metal Gear Solid",
+            "explanation": "Ce jeu, réalisé par Hideo Kojima, est devenu un classique du genre action-infiltration et a marqué l'histoire des consoles PlayStation."
+        }
+             cinema": [
+            {
+                "question": "Quel acteur incarne le personnage de Jack Sparrow dans Pirates des Caraïbes ?",
+                "options": [
+                    "Johnny Depp",
+                    "Orlando Bloom",
+                    "Geoffrey Rush",
+                    "Keira Knightley"
+                ],
+                "answer": "Johnny Depp",
+                "explanation": "Johnny Depp a rendu le personnage de Jack Sparrow extrêmement populaire avec son style excentrique et sa performance charismatique."
+            },
+            {
+                "question": "Dans quel film de science-fiction peut-on entendre la réplique 'Je suis ton père' ?",
+                "options": [
+                    "Star Wars: L'Empire contre-attaque",
+                    "Blade Runner",
+                    "2001: L'Odyssée de l'espace",
+                    "Retour vers le futur"
+                ],
+                "answer": "Star Wars: L'Empire contre-attaque",
+                "explanation": "Cette réplique emblématique est prononcée par Dark Vador à Luke Skywalker dans L'Empire contre-attaque."
+            },
+            {
+                "question": "Quel film a remporté l'Oscar du meilleur film en 2020 ?",
+                "options": [
+                    "Parasite",
+                    "1917",
+                    "Joker",
+                    "Once Upon a Time in Hollywood"
+                ],
+                "answer": "Parasite",
+                "explanation": "Parasite, un film sud-coréen réalisé par Bong Joon-ho, est devenu le premier film non anglophone à remporter l'Oscar du meilleur film."
+            },
+            {
+                "question": "Quel réalisateur est connu pour ses films comme Inception et The Dark Knight ?",
+                "options": [
+                    "Christopher Nolan",
+                    "Steven Spielberg",
+                    "Quentin Tarantino",
+                    "James Cameron"
+                ],
+                "answer": "Christopher Nolan",
+                "explanation": "Christopher Nolan est célèbre pour ses intrigues complexes et ses films visuellement impressionnants, comme Inception et la trilogie The Dark Knight."
+            },
+            {
+                "question": "Quel film d'animation a pour héros un rat nommé Rémy qui rêve de devenir chef cuisinier ?",
+                "options": [
+                    "Ratatouille",
+                    "Zootopie",
+                    "Le Monde de Nemo",
+                    "Les Indestructibles"
+                ],
+                "answer": "Ratatouille",
+                "explanation": "Ratatouille est un film d'animation Pixar qui raconte l'histoire d'un rat nommé Rémy qui aspire à devenir chef dans un restaurant parisien."
+            }
+        ],
+        "musique": [
+            {
+                "question": "Quel artiste est connu pour la chanson 'Shape of You' ?",
+                "options": [
+                    "Ed Sheeran",
+                    "Justin Bieber",
+                    "Shawn Mendes",
+                    "Sam Smith"
+                ],
+                "answer": "Ed Sheeran",
+                "explanation": "'Shape of You', sortie en 2017, est l'une des chansons les plus populaires d'Ed Sheeran."
+            },
+            {
+                "question": "Quel groupe a écrit l'album légendaire 'The Wall' ?",
+                "options": [
+                    "Pink Floyd",
+                    "The Beatles",
+                    "Led Zeppelin",
+                    "Queen"
+                ],
+                "answer": "Pink Floyd",
+                "explanation": "'The Wall' est un album concept emblématique de Pink Floyd, sorti en 1979."
+            },
+            {
+                "question": "En quelle année les Beatles ont-ils donné leur dernier concert public ?",
+                "options": [
+                    "1966",
+                    "1969",
+                    "1970",
+                    "1965"
+                ],
+                "answer": "1966",
+                "explanation": "Les Beatles ont donné leur dernier concert public à San Francisco en 1966 avant de se concentrer sur les enregistrements en studio."
+            },
+            {
+                "question": "Quel genre musical est associé à Bob Marley ?",
+                "options": [
+                    "Reggae",
+                    "Blues",
+                    "Rock",
+                    "Hip-Hop"
+                ],
+                "answer": "Reggae",
+                "explanation": "Bob Marley est une icône mondiale du reggae, un genre musical originaire de la Jamaïque."
+            },
+            {
+                "question": "Quel festival de musique emblématique s'est tenu en 1969 aux États-Unis ?",
+                "options": [
+                    "Woodstock",
+                    "Glastonbury",
+                    "Coachella",
+                    "Lollapalooza"
+                ],
+                "answer": "Woodstock",
+                "explanation": "Woodstock est un festival légendaire qui a symbolisé la culture hippie et la contre-culture des années 60."
+            }
+        ],
+        "jeux_video": [
+            {
+                "question": "Dans quel jeu vidéo peut-on incarner un chasseur de primes nommé Samus Aran ?",
+                "options": [
+                    "Metroid",
+                    "Halo",
+                    "Mass Effect",
+                    "Starcraft"
+                ],
+                "answer": "Metroid",
+                "explanation": "Samus Aran est la protagoniste de la série Metroid, connue pour son gameplay de science-fiction et d'exploration."
+            },
+            {
+                "question": "Quel jeu a introduit le personnage de Geralt de Riv ?",
+                "options": [
+                    "The Witcher",
+                    "Dragon Age",
+                    "Skyrim",
+                    "Dark Souls"
+                ],
+                "answer": "The Witcher",
+                "explanation": "Geralt de Riv est le héros de la série The Witcher, basée sur les romans d'Andrzej Sapkowski."
+            },
+            {
+                "question": "Quel jeu vidéo célèbre commence avec la phrase 'War. War never changes' ?",
+                "options": [
+                    "Fallout",
+                    "Call of Duty",
+                    "Gears of War",
+                    "Command and Conquer"
+                ],
+                "answer": "Fallout",
+                "explanation": "Cette phrase est devenue emblématique de la série Fallout, un jeu de rôle post-apocalyptique."
+            },
+            {
+                "question": "Dans quel jeu les joueurs doivent construire des défenses contre des hordes de zombies ?",
+                "options": [
+                    "Plants vs. Zombies",
+                    "Left 4 Dead",
+                    "DayZ",
+                    "Dying Light"
+                ],
+                "answer": "Plants vs. Zombies",
+                "explanation": "Plants vs. Zombies est un jeu stratégique où les joueurs utilisent des plantes pour se défendre contre des zombies."
+            },
+            {
+                "question": "Quel jeu vidéo se déroule à Hyrule et implique souvent une quête pour trouver la Triforce ?",
+                "options": [
+                    "The Legend of Zelda",
+                    "Final Fantasy",
+                    "Dragon Quest",
+                    "Chrono Trigger"
+                ],
+                "answer": "The Legend of Zelda",
+                "explanation": "Dans The Legend of Zelda, Link doit souvent sauver Hyrule et retrouver la Triforce."
+            }
+        ]
+    }
